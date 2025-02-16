@@ -52,10 +52,11 @@ button {
 .card {
 	text-align: center;
 	color: var(--white);
-	position: relative;
 	background-color: var(--gray);
 	padding: 2em 3em;
 	border-radius: 20px;
+	overflow: hidden;
+	position: relative;
 
 	img {
 		position: absolute;
@@ -72,6 +73,7 @@ button {
 	display: flex;
 	flex-direction: column;
 	gap: 30px;
+	position: relative;
 
 	.header-content {
 		display: flex;
